@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rajesh Sonawane</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="cartContainer">
+        <div class="cartContainerHeaderContainer">
+          <div class="cartContainerHeaderLeftLine">______________________</div>
+          <div class="cartContainerHeader">Bundle & Save</div>
+          <div class="cartContainerHeaderRightLine">______________________</div>
+        </div>
+
+        <div class="cartContentContainer">
+          <div class="box" onclick="expandBox('box1')">
+            <div class="boxContent">
+              <div class="boxLeftContent">
+                <input type="radio" name="box1Radio" id="box1Radio1" />
+                <h4>1 Pair</h4>
+                <h4>DKK 195.00</h4>
+                
+              </div>
+              <div class="boxRightContent">
+                  <h4>50% OFF</h4>
+                </div>
+
+              <div class="expandedContent" id="box1">
+                <div class="sizeContainer">
+                  <label for="size1">Size:</label>
+                  <select id="size1">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                  </select>
+                </div>
+                <div class="colorContainer">
+                  <label for="color1">Color:</label>
+                  <select id="color1">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box" onclick="expandBox('box2')">
+            <div class="boxContent">
+              <div class="boxLeftContent">
+                <input type="radio" name="box2Radio" id="box2Radio1" />
+                <h4>2 Pair</h4>
+                <h4>DKK 345.00</h4>
+              </div>
+              <div class="boxRightContent">
+                <h4>40% OFF</h4>
+              </div>
+
+              <div class="expandedContent" id="box2">
+                <div class="sizeContainer">
+                  <label for="size2">Size:</label>
+                  <select id="size2">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                  </select>
+                </div>
+                <div class="colorContainer">
+                  <label for="color2">Color:</label>
+                  <select id="color2">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box" onclick="expandBox('box3')">
+            <div class="boxContent">
+              <div class="boxLeftContent">
+                <input type="radio" name="box3Radio" id="box3Radio1" />
+                <h4>3 Pair</h4>
+                <h4>DKK 528.00</h4>
+              </div>
+              <div class="boxRightContent">
+                <h4>60% OFF</h4>
+              </div>
+
+              <div class="expandedContent" id="box3">
+                <div class="sizeContainer">
+                  <label for="size3">Size:</label>
+                  <select id="size3">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                  </select>
+                </div>
+                <div class="colorContainer">
+                  <label for="color3">Color:</label>
+                  <select id="color3">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="cartBottomContent">
+          <div class="cartBottomLeftContent">
+            <h5>Free 2 Day Shipping</h5>
+          </div>
+          <div class="cartBottomRightContent">
+            <h4>Total: DKK 360.00</h4>
+          </div>
+        </div>
+
+        <div class="cartBottomButtonContainer">
+          <button>+ Add to Cart</button>
+        </div>
+
+        <div class="cartRightsContainer">
+          <span>@ </span> <span>Powered by Pumper</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
